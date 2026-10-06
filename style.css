@@ -201,15 +201,17 @@ body{
 }
 
 .footer{
-    height: 100px;
-    background-color: wheat;
+    /* height: 100px; */
+    background-color: #afc3c9;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    padding: 0px 8%;
+    padding: 10px 8%;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 
 /* animation */
 @keyframes fadein {
@@ -267,5 +269,8 @@ body{
     #heroTitle{
         font-size: 35px;
     }
-  
+  .banner{
+    height: fit-content;
+    padding: 40px 8%;
+  }
 }
